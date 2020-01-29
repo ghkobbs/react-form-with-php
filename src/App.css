@@ -28,6 +28,13 @@
   color: #61dafb;
 }
 
+input[type="text"], input[type="submit"], input[type="email"] {
+  padding: 10px 15px;
+}
+input[type="text"], input[type="email"] {
+  width: 300px;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
